@@ -158,14 +158,14 @@ docs_to_strings() → clear_document_collection()
 
 ## Future Plans
 
-### Completed ✅
+### Completed
 - [x] Basic RAG pipeline in Jupyter notebook
 - [x] Weaviate vector database setup
 - [x] PDF document processing
 - [x] DeepSeek LLM integration
 - [x] Vietnamese/English multilingual support
 
-### Next Steps 🔄
+### Next Steps
 - [ ] **Web Interface**: Simple frontend for easier interaction
 - [ ] **API Development**: FastAPI endpoints for the RAG pipeline
 - [ ] **CI/CD**: GitHub Actions for automated testing and deployment
