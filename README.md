@@ -8,7 +8,7 @@ This repository implements a comprehensive RAG pipeline built from almost scratc
 
 ### Current State
 
-**📄 PDF Processing**: Extract text from PDFs and split into chunks using PyMuPDF + LangChain
+- **📄 PDF Processing**: Extract text from PDFs and split into chunks using PyMuPDF + LangChain
 - **🔍 Vector Database**: Weaviate setup with Docker Compose for local development
 - **🤖 Embedding Model**: SentenceTransformers with multilingual support (Vietnamese/English)
 - **🧠 LLM Integration**: DeepSeek R1 reasoning model via OpenRouter API
@@ -166,8 +166,9 @@ docs_to_strings() → clear_document_collection()
 - [x] Vietnamese/English multilingual support
 
 ### Next Steps
+- [ ] Add agent to handle complex queries and re-retrieval
+- [ ] Integrate query calling with FastAPI
 - [ ] **Web Interface**: Simple frontend for easier interaction
-- [ ] **API Development**: FastAPI endpoints for the RAG pipeline
 - [ ] **CI/CD**: GitHub Actions for automated testing and deployment
 - [ ] **Cloud Deployment**: AWS services (EKS, S3, etc.)
 - [ ] **Monitoring**: Basic observability with Prometheus/Grafana
